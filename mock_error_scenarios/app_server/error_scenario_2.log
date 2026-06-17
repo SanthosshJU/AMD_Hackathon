@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] INFO: Validating user token payload for session
+[2026-06-17 00:57:51] INFO: Fetching JWKS public key from cache
+[2026-06-17 00:57:55] ERROR: io.jsonwebtoken.SignatureException: The Token Signature is invalid
+[2026-06-17 00:57:57] WARN: JWT signature does not match locally cached credentials from auth-service
+[2026-06-17 00:57:58] ERROR: Security context rejected. HTTP 401 Unauthorized returned to client.

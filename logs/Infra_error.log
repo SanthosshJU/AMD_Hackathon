@@ -1,0 +1,5 @@
+[2026-06-17 06:13:03] INFO: [metrics-server] scraping node resources for db-cluster
+[2026-06-17 06:13:03] WARN: pg-master.internal.hotelapp.net load average spiked to 45.2
+[2026-06-17 06:13:03] CRITICAL: Database engine host core processor utilization spikes to 100% capacity.
+[2026-06-17 06:13:03] WARN: High CPU utilization pinned by full sequential table scans.
+[2026-06-17 06:13:03] ERROR: DB Node CPU threshold exceeded. Queries backing up in process queue.

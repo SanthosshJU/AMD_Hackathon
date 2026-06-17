@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] INFO: [node-1] cluster health status changed from [GREEN] to [RED] (reason: [shards failed])
+[2026-06-17 00:57:51] ERROR: org.elasticsearch.indices.IndexPrimaryShardNotAllocatedException: [hotel_rooms][2] primary shard is unassigned
+[2026-06-17 00:57:55] WARN: 0 nodes are actively participating in shard [hotel_rooms][2]
+[2026-06-17 00:57:57] ERROR: ClusterHealthIsRedException: Backend search index mappings are unmapped.
+[2026-06-17 00:57:58] ERROR: Search API search-api-service queries failing with HTTP 500.

@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] INFO: fluentd file tailer started on /var/log/hotel-app/booking-engine-trace.log
+[2026-06-17 00:57:51] WARN: Host Storage Utilization Alert: /var/log exceeding 96% availability limits
+[2026-06-17 00:57:55] ERROR: IOError: [Errno 28] No space left on device
+[2026-06-17 00:57:57] CRITICAL: Application daemon output handlers failing to write trace logs.
+[2026-06-17 00:57:58] WARN: logrotate system services failed to execute due to zero block space.

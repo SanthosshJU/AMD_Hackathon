@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] INFO: Attempting to lock room PR-101 for checkout reservation
+[2026-06-17 00:57:51] WARN: Redis transaction contention rate increasing > 40%
+[2026-06-17 00:57:55] ERROR: com.hotel.exception.RedisLockException: Could not acquire distributed lock for Room Type Resource ID: PR-101
+[2026-06-17 00:57:57] ERROR: Inventory sync failed. Stale Redisson distributed locks suspected.
+[2026-06-17 00:57:58] ERROR: Room mapping locked by another transaction. Front-end displaying Unavailable.

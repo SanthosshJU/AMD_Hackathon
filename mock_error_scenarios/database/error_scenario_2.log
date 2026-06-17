@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] LOG: statement: SELECT * FROM bookings WHERE customer_id = 998231 AND status = 'ACTIVE' ORDER BY checkin_date DESC;
+[2026-06-17 00:57:51] WARN: Database Read Latency Spike > 3000ms detected.
+[2026-06-17 00:57:55] WARN: pg_log: duration: 4210.512 ms statement: SELECT * FROM bookings WHERE customer_id = 998231 AND status = 'ACTIVE' ORDER BY checkin_date DESC;
+[2026-06-17 00:57:57] LOG: execution plan: Seq Scan on bookings (cost=0.00..15432.00 rows=1420 width=128)
+[2026-06-17 00:57:58] WARN: Missing relational DB index causing full sequential table scans.

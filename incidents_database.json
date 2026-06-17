@@ -1,0 +1,230 @@
+[
+    {
+        "id": 1,
+        "timestamp": "2026-06-17 05:53:56",
+        "summary": "Cascading 502 Bad Gateway errors detected.",
+        "root_cause": "Application Server thread pool exhausted.",
+        "resolution": "Increase application worker thread pool size.",
+        "remediation_steps": [
+            "Restart App Server",
+            "Increase worker threads config"
+        ],
+        "status": "Implement"
+    },
+    {
+        "id": 2,
+        "service": "DB",
+        "timestamp": "2026-06-17 06:03:09",
+        "summary": "Database connection pool exhausted.",
+        "root_cause": "High traffic spike caused unindexed queries to lock DB connections.",
+        "resolution": "Scale up DB connection pool limit to 250.",
+        "remediation_steps": [
+            "Flush DB Connection Pool",
+            "Kill stale query sessions"
+        ],
+        "status": "Implemented"
+    },
+    {
+        "id": 3,
+        "service": "App",
+        "timestamp": "2026-06-17 06:27:50",
+        "summary": "JWT Signature Validation Failure due to Desynchronized Cryptographic Keys",
+        "root_cause": "The application service (`booking-service`) was failing JWT signature validation because it was using outdated public keys for verification. This occurred because the `auth-service` rotated its signing credentials, but the local cache within the `booking-service` failed to invalidate the old keys, leading to a mismatch with the newly signed tokens.",
+        "resolution": "Execute the steps outlined in Runbook RB-006 to force the application to refresh its cached JWKS public keys and restore correct authentication functionality.",
+        "remediation_steps": [
+            "Step 1: Query the 'auth-service' JWKS public endpoint directly using network diagnostic utilities to verify the identity of the currently active key identifiers: 'curl -s https://auth-service.internal.net/.well-known/jwks.json | jq \".keys[].kid\"'",
+            "Step 2: Inspect the configuration details of the 'booking-service' cluster instances to determine the last recorded cache eviction timestamp.",
+            "Step 3: Force an immediate flush of the authentication cache layer by dispatching an authenticated management POST request to the application's internal actuator endpoint: 'curl -X POST -H \"Authorization: Bearer $SYSTEM_INTERNAL_KEY\" https://booking-service.internal.net/actuator/clearcache/auth-keys'"
+        ],
+        "status": "ACTIVE"
+    },
+    {
+        "id": 4,
+        "service": "App",
+        "timestamp": "2026-06-17 06:42:10",
+        "summary": "JWT Signature Validation Failure due to Desynchronized Cryptographic Keys",
+        "root_cause": "The application service failed JWT validation because the locally cached credentials (public keys) did not match the current signing keys published by the 'auth-service'. This is caused by a desynchronization in the caching mechanism of the 'booking-service' regarding the JSON Web Key Set (JWKS) public keys, likely due to key rotation in the 'auth-service' that was not correctly reflected in the downstream service's cache.",
+        "resolution": "Execute the steps from Runbook RB-006 to force a refresh of the authentication cache and restore JWT validation functionality.",
+        "remediation_steps": [
+            ")));"
+        ],
+        "status": "ACTIVE"
+    },
+    {
+        "timestamp": "2026-06-17 08:02:20 IST",
+        "summary": "Application server crash due to missing directory.",
+        "root_cause": "The application server crashed because a required directory was missing, as indicated by the log entry: `[2026-06-17 08:02:20 IST] [CRITICAL FATAL] app_server internal crash mock. Dir missing.`",
+        "resolution": "Follow runbook for handling application crashes due to missing files.",
+        "remediation_steps": ")[No specific runbook found matching the error 'Dir missing'. Based on general SRE principles, the action required is to restore the missing directory structure.]",
+        "id": "e62f6def",
+        "status": "Pending",
+        "target_server": "app_server"
+    },
+    {
+        "timestamp": "2026-06-17 08:02:20 IST",
+        "summary": "Application and Database internal crashes due to missing directories.",
+        "root_cause": "The application server experienced a critical failure (`[CRITICAL FATAL] app_server internal crash mock. Dir missing.`) and the database encountered a critical failure (`[CRITICAL FATAL] database internal crash mock. Dir missing.`). This strongly suggests an issue with file system access or configuration loading on the respective servers, likely caused by a missing directory.",
+        "resolution": "The provided runbooks do not contain specific remediation steps for application or database crashes related to missing directories. Therefore, no exact commands can be copied from the historical knowledge base to resolve this specific incident.",
+        "remediation_steps": "No remediation steps found in the runbooks for this specific failure mode.",
+        "id": "afb594b0",
+        "status": "Pending",
+        "target_server": "database"
+    },
+    {
+        "timestamp": "2026-06-17 09:41:26 IST",
+        "summary": "Backend evaluation failed: Error code: 400 - {'error': 'The model has crashed without additional information. (Exit code: 18446744072635812000)'}",
+        "root_cause": "Unknown due to processing failure",
+        "resolution": "Manual intervention required",
+        "remediation_steps": "Check backend configuration, Re-evaluate logs",
+        "id": "264a7a18",
+        "status": "Pending",
+        "target_server": "database"
+    },
+    {
+        "timestamp": "2026-06-17 09:47:37 IST",
+        "summary": "Backend evaluation failed: Error code: 400 - {'error': {'message': \"No models loaded. Please load a model in the developer page or use the 'lms load' command.\", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}",
+        "root_cause": "Unknown due to processing failure",
+        "resolution": "Manual intervention required",
+        "remediation_steps": "Check backend configuration, Re-evaluate logs",
+        "id": "44e74e40",
+        "status": "Completed",
+        "target_server": "database"
+    },
+    {
+        "timestamp": "2026-06-17 09:48:48 IST",
+        "summary": "Backend evaluation failed: Error code: 400 - {'error': 'Model reloaded.'}",
+        "root_cause": "Unknown due to processing failure",
+        "resolution": "Manual intervention required",
+        "remediation_steps": "Check backend configuration, Re-evaluate logs",
+        "id": "bff2eb6b",
+        "status": "Completed",
+        "target_server": "database"
+    },
+    {
+        "timestamp": "2026-06-17 03:51:58 IST",
+        "summary": "System encountered application requests for checkout while system errors related to missing scenario directories were logged in the database and infrastructure layers.",
+        "root_cause": "Missing scenario files for database and infrastructure testing, indicated by repeated `[SYSTEM ERROR] Scenario directory mock_error_scenario\\database missing.` (DB logs) and `[SYSTEM ERROR] Scenario directory mock_error_scenario\\infrastructure missing.` (INFRA logs).",
+        "resolution": "The incident appears to be a configuration or setup issue related to scenario files, not an immediate service outage. Since no specific runbook exists for this exact error, the resolution focuses on addressing the reported system errors based on general operational knowledge.",
+        "remediation_steps": "1. Investigate and restore the missing scenario directories: Verify the existence and correct path of `mock_error_scenario\\database` and `mock_error_scenario\\infrastructure` directories on the relevant system nodes.\n2. Re-run any pending tests or processes that rely on these scenario files to ensure full functionality.",
+        "id": "be6b6245",
+        "status": "Completed",
+        "target_server": "infrastructure"
+    },
+    {
+        "timestamp": "2026-06-17 09:55:49 IST",
+        "summary": "Backend evaluation failed: Error code: 400 - {'error': 'Model unloaded.'}",
+        "root_cause": "Unknown due to processing failure",
+        "resolution": "Manual intervention required",
+        "remediation_steps": "Check backend configuration, Re-evaluate logs",
+        "id": "e862bed3",
+        "status": "Pending",
+        "target_server": "app_server"
+    },
+    {
+        "timestamp": "2026-06-17 06:27:58 IST",
+        "summary": "Stale Redisson distributed locks caused inventory synchronization failure due to orphaned distributed locks.",
+        "root_cause": "Orphaned distributed locks in Redis were suspected, likely caused by an unhandled crash or eviction of the 'inventory-manager' service while holding a lock, leading to stale state and transaction contention.",
+        "resolution": "Execute the steps from Runbook RB-002 to clean up orphaned locks and force inventory synchronization.",
+        "remediation_steps": ":[ 1, ",
+        "id": "144b4a5a",
+        "status": "Pending",
+        "target_server": "app_server"
+    },
+    {
+        "timestamp": "2026-06-17 10:22:50 IST",
+        "summary": "Backend evaluation failed: Error code: 400 - {'error': 'The model has crashed without additional information. (Exit code: 18446744072635812000)'}",
+        "root_cause": "Unknown due to processing failure",
+        "resolution": "Manual intervention required",
+        "remediation_steps": "Check backend configuration, Re-evaluate logs",
+        "id": "5358e5df",
+        "status": "Pending",
+        "target_server": "database"
+    },
+    {
+        "timestamp": "2026-06-17 06:27:58 IST",
+        "summary": "PostgreSQL connection pool starvation due to idle transactions, caused by unclosed connections in the `billing-orchestrator` service.",
+        "root_cause": "The `billing-orchestrator` service was failing to properly close database transactions (lacking a 'finally' closure clause) when external API calls timed out. This resulted in 95 active PostgreSQL backend processes remaining in an 'idle in transaction' state, exhausting the connection pool and causing the transaction pool to starve.",
+        "resolution": "Execute the documented remediation workflow for PostgreSQL Connection Pool Exhaustion.",
+        "remediation_steps": "SELECT pid, age(clock_timestamp(), query_start), usename, query, state FROM pg_stat_activity WHERE state != 'idle' AND age(clock_timestamp(), query_start) > interval '30 seconds' ORDER BY age DESC;",
+        "id": "731d0e6e",
+        "status": "Pending",
+        "target_server": "database"
+    },
+    {
+        "timestamp": "2026-06-17 10:41:19 IST",
+        "summary": "Database Deadlock during Promo Booking Workflow",
+        "root_cause": "Deadlock detected due to inconsistent locking order between the `room_inventory` and `customer_ledger` tables when executing the `promo_booking workflow` under high concurrency.",
+        "resolution": "Execute remediation steps from runbook INC-009.",
+        "remediation_steps": "Extract the unique process identifiers (PIDs) involved in the deadlock loop by reviewing the detailed backend engine log files.",
+        "id": "f87b1d8f",
+        "status": "Pending",
+        "target_server": "app_server"
+    },
+    {
+        "timestamp": "2026-06-17 10:46:31 IST",
+        "summary": "Database Read Latency Spike due to Missing Index",
+        "root_cause": "The query `SELECT * FROM bookings WHERE customer_id = 998231 AND status = 'ACTIVE' ORDER BY checkin_date DESC` experienced a significant latency spike (4210.512 ms) because the `bookings` table was missing the necessary relational database index on the columns used for filtering and sorting (`customer_id`, `status`, `checkin_date`). This forced the PostgreSQL engine to perform a full sequential table scan, leading to high CPU utilization and severe query latency.",
+        "resolution": "Apply the documented procedure to create the missing index on the `bookings` table to optimize query performance.",
+        "remediation_steps": "Connect to the primary transactional database node using the interactive administrative console interface: 'psql -h pg-master.internal.hotelapp.net -U db_admin -d hotel_reservations'.\nCreate the missing index on the `bookings` table using the CONCURRENTLY keyword to avoid locking out write operations: 'CREATE INDEX CONCURRENTLY idx_bookings_customer_status_date ON bookings(customer_id, status, checkin_date DESC);'.\nExecute an update on the table metrics to ensure the database query planner updates its route structures: 'VACUUM ANALYZE bookings;'.\nRerun the original execution query plan from the initial investigation to verify the database engine is now performing an optimized 'Index Scan'.",
+        "id": "91358c3d",
+        "status": "Pending",
+        "target_server": "database"
+    },
+    {
+        "timestamp": "2026-06-17 11:20:40 IST",
+        "summary": "Database Deadlock during Promo Booking Workflow",
+        "root_cause": "Deadlock caused by inconsistent transaction ordering when updating dependent tables (`room_inventory` and `customer_ledger`) across different workflows (promo booking vs. standard booking). Specifically, the promo booking workflow updated the ledger before the inventory, creating a reverse locking order with other concurrent transactions.",
+        "remediation_steps": [
+            {
+                "step": "Enforce strict lexicographical sorting order for all database updates involving `room_inventory` and `customer_ledger` tables across all services to prevent deadlocks."
+            },
+            {
+                "step": "Review and refactor the 'promo_booking' workflow code to ensure that transactions always acquire locks on dependent tables in a consistent, predefined order (e.g., always update `room_inventory` before `customer_ledger`)."
+            }
+        ],
+        "id": "ee8071da",
+        "status": "Completed",
+        "target_server": "app_server"
+    },
+    {
+        "timestamp": "2026-06-17 11:37:06 IST",
+        "summary": "Database performance degradation due to full sequential table scans caused by missing indexes.",
+        "root_cause": "The database host experienced severe CPU saturation (100%) because the queries were performing full sequential table scans on the 'rooms' table instead of using an appropriate index. This was identified as a lack of necessary structural indexing on the 'bookings' ledger table, which caused massive I/O and CPU overhead during high-frequency lookups.",
+        "remediation_steps": [
+            {
+                "step": "Connect to the primary transactional database node using the interactive administrative console interface: 'psql -h pg-master.internal.hotelapp.net -U db_admin -d hotel_reservations'"
+            },
+            {
+                "step": "Generate an explicit runtime execution plan for the slow query to confirm the presence of a sequential scan operation: 'EXPLAIN ANALYZE SELECT * FROM rooms WHERE status='AVAILABLE''"
+            },
+            {
+                "step": "Verify the output rows for structural flags containing 'Seq Scan on rooms'. This confirms the absence of functional database indexing structural configurations."
+            },
+            {
+                "step": "Construct index statement to add the missing index: 'CREATE INDEX CONCURRENTLY idx_rooms_status ON rooms(status);'"
+            },
+            {
+                "step": "Execute a vacuum and analyze command on the table to ensure the query planner updates its route structures: 'VACUUM ANALYZE rooms;'"
+            }
+        ],
+        "id": "6506efa8",
+        "status": "Completed",
+        "target_server": "infrastructure"
+    },
+    {
+        "summary": "Backend evaluation failed: Error code: 400 - {'error': 'Model reloaded.'}",
+        "root_cause": "Unknown due to processing failure",
+        "remediation_steps": [
+            {
+                "step": "Check backend configuration"
+            },
+            {
+                "step": "Re-evaluate logs"
+            }
+        ],
+        "timestamp": "2026-06-17 11:42:57 IST",
+        "id": "66414d4c",
+        "status": "Completed",
+        "target_server": "database"
+    }
+]

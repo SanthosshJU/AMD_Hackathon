@@ -1,0 +1,1848 @@
+[INFO] 2026-06-17 05:46:12 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:12 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:12 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:14 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:14 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:14 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:16 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:16 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:16 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:18 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:18 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:18 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:20 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:20 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:20 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:22 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:22 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:22 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:24 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:24 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:24 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:26 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:26 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:26 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:29 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:29 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:29 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:31 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:31 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:31 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:33 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:33 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:33 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:35 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:35 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:35 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:46:37 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:46:37 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:37 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:46:39 - 502 Bad Gateway
+[INFO] 2026-06-17 05:46:39 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:39 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:46:41 - 502 Bad Gateway
+[INFO] 2026-06-17 05:46:41 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:41 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:46:43 - 502 Bad Gateway
+[INFO] 2026-06-17 05:46:43 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:43 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:46:45 - 502 Bad Gateway
+[INFO] 2026-06-17 05:46:45 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:45 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:46:47 - 502 Bad Gateway
+[INFO] 2026-06-17 05:46:47 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:47 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:46:49 - 502 Bad Gateway
+[INFO] 2026-06-17 05:46:49 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:49 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:46:51 - 502 Bad Gateway
+[INFO] 2026-06-17 05:46:51 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:51 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:46:53 - 502 Bad Gateway
+[INFO] 2026-06-17 05:46:53 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:53 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:46:56 - 502 Bad Gateway
+[INFO] 2026-06-17 05:46:56 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:56 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:46:58 - 502 Bad Gateway
+[INFO] 2026-06-17 05:46:58 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:46:58 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:00 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:00 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:00 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:02 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:02 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:02 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:04 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:04 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:04 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:06 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:06 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:06 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:08 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:08 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:08 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:10 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:10 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:10 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:13 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:13 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:13 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:15 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:15 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:15 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:17 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:17 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:17 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:19 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:19 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:19 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:21 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:21 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:21 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:23 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:23 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:23 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:26 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:26 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:26 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:28 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:28 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:28 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:30 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:30 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:30 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:32 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:32 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:32 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:34 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:34 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:34 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:36 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:36 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:36 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:38 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:38 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:38 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:40 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:40 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:40 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:43 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:43 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:43 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:45 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:45 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:45 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:47 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:47 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:47 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:49 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:49 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:49 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:51 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:51 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:51 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:53 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:53 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:53 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:55 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:55 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:55 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:47:58 - 502 Bad Gateway
+[INFO] 2026-06-17 05:47:58 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:47:58 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:00 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:00 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:00 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:02 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:02 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:02 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:04 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:04 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:04 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:06 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:06 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:06 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:08 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:08 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:08 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:10 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:10 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:10 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:12 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:12 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:12 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:15 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:15 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:15 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:17 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:17 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:17 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:19 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:19 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:19 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:21 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:21 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:21 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:23 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:23 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:23 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:25 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:25 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:25 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:27 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:27 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:27 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:30 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:30 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:30 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:32 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:32 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:32 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:34 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:34 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:34 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:36 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:36 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:36 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:38 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:38 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:38 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:40 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:40 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:40 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:42 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:42 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:42 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:44 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:44 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:44 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:47 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:47 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:47 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:49 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:49 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:49 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:51 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:51 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:51 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:53 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:53 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:53 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:55 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:55 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:55 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:57 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:57 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:57 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:48:59 - 502 Bad Gateway
+[INFO] 2026-06-17 05:48:59 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:48:59 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:01 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:01 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:01 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:04 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:04 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:04 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:06 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:06 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:06 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:08 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:08 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:08 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:10 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:10 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:10 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:12 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:12 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:12 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:14 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:14 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:14 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:16 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:16 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:16 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:19 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:19 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:19 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:21 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:21 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:21 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:23 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:23 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:23 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:25 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:25 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:25 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:27 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:27 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:27 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:29 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:29 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:29 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:31 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:31 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:31 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:33 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:33 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:33 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:36 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:36 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:36 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:38 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:38 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:38 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:40 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:40 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:40 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:42 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:42 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:42 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:44 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:44 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:44 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:46 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:46 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:46 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:48 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:48 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:48 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:50 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:50 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:50 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:53 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:53 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:53 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:55 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:55 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:55 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:57 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:57 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:57 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:49:59 - 502 Bad Gateway
+[INFO] 2026-06-17 05:49:59 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:49:59 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:01 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:01 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:01 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:03 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:03 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:03 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:05 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:05 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:05 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:07 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:07 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:07 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:10 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:10 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:10 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:12 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:12 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:12 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:14 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:14 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:14 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:16 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:16 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:16 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:18 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:18 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:18 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:20 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:20 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:20 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:22 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:22 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:22 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:25 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:25 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:25 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:27 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:27 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:27 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:29 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:29 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:29 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:31 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:31 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:31 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:33 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:33 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:33 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:35 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:35 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:35 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:37 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:37 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:37 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:39 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:39 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:39 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:42 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:42 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:42 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:44 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:44 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:44 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:46 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:46 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:46 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:48 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:48 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:48 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:50 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:50 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:50 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:52 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:52 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:52 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:54 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:54 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:54 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:56 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:56 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:56 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:50:59 - 502 Bad Gateway
+[INFO] 2026-06-17 05:50:59 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:50:59 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:01 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:01 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:01 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:03 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:03 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:03 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:05 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:05 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:05 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:07 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:07 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:07 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:09 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:09 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:09 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:11 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:11 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:11 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:13 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:13 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:13 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:16 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:16 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:16 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:18 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:18 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:18 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:20 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:20 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:20 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:22 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:22 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:22 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:24 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:24 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:24 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:26 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:26 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:26 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:28 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:28 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:28 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:30 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:30 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:30 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:33 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:33 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:33 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:35 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:35 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:35 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:37 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:37 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:37 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:39 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:39 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:39 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:41 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:41 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:41 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:43 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:43 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:43 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:45 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:45 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:45 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:48 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:48 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:48 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:50 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:50 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:50 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:52 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:52 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:52 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:54 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:54 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:54 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:56 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:56 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:56 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:51:58 - 502 Bad Gateway
+[INFO] 2026-06-17 05:51:58 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:51:58 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:00 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:00 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:00 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:03 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:03 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:03 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:05 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:05 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:05 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:07 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:07 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:07 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:09 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:09 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:09 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:11 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:11 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:11 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:13 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:13 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:13 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:15 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:15 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:15 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:18 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:18 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:18 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:20 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:20 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:20 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:22 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:22 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:22 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:24 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:24 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:24 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:26 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:26 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:26 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:28 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:28 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:28 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:30 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:30 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:30 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:32 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:32 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:32 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:35 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:35 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:35 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:37 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:37 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:37 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:39 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:39 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:39 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:41 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:41 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:41 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:43 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:43 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:43 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:45 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:45 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:45 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:47 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:47 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:47 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:49 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:49 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:49 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:51 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:51 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:51 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:53 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:53 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:53 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:56 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:56 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:56 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:52:58 - 502 Bad Gateway
+[INFO] 2026-06-17 05:52:58 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:52:58 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:53:00 - 502 Bad Gateway
+[INFO] 2026-06-17 05:53:00 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:00 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:02 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:02 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:04 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:04 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:06 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:06 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:08 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:08 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:10 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:10 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:12 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:15 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:15 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:15 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:15 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:15 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:15 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:17 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:17 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:17 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:19 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:19 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:19 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:21 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:21 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:21 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:23 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:23 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:23 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:26 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:26 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:26 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:28 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:28 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:28 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:30 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:30 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:30 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:32 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:32 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:32 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:34 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:34 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:34 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:36 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:36 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:36 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:38 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:38 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:38 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:40 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:40 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:40 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:42 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:42 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:42 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:45 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:45 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:45 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:47 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:47 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:47 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:49 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:49 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:49 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:51 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:51 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:51 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:53 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:53 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:53 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:55 - GET /api/v1/users - 200 OK
+[INFO] 2026-06-17 05:53:55 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:55 - Node-04 CPU utilization steady at 45%
+[ERROR] 2026-06-17 05:53:56 - 502 Bad Gateway
+[INFO] 2026-06-17 05:53:56 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:56 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:53:58 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:53:58 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:00 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:00 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:02 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:02 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:05 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:05 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:07 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:07 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:09 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:09 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:11 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:11 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:13 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:13 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:15 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:15 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:17 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:17 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:19 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:19 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:21 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:21 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:24 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:24 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:26 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:26 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:28 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:28 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:30 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:30 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:32 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:32 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:34 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:34 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:36 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:36 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:38 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:38 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:41 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:41 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:43 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:43 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:45 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:45 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:47 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:47 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:49 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:49 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:51 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:51 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:53 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:53 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:55 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:55 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:54:58 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:54:58 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:00 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:00 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:02 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:02 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:04 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:04 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:06 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:06 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:08 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:08 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:10 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:10 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:12 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:12 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:14 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:14 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:16 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:16 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:18 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:18 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:21 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:21 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:23 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:23 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:25 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:25 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:27 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:27 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:29 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:29 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:31 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:31 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:33 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:33 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:35 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:35 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:37 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:37 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:39 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:39 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:41 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:41 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:43 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:43 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:45 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:45 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:47 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:47 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:49 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:49 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:51 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:51 - Node-04 CPU utilization steady at 45%
+[INFO] 2026-06-17 05:55:53 - Connection pool: 12/100 active
+[INFO] 2026-06-17 05:55:53 - Node-04 CPU utilization steady at 45%
+[2026-06-16 22:14:03] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:03] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:03] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:14:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:14:08] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:14:08] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:14:13] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:14:13] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:13] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:14:18] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:18] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:18] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:14:23] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:23] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:23] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:14:28] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:28] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:14:28] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:14:33] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:33] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:33] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:14:38] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:38] LOG: duration: 12.4ms
+[2026-06-16 22:14:38] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:14:43] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:43] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:14:48] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:48] LOG: duration: 12.4ms
+[2026-06-16 22:14:48] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:14:53] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:53] LOG: duration: 12.4ms
+[2026-06-16 22:14:53] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:14:58] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:14:58] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:14:58] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:03] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:15:03] LOG: duration: 12.4ms
+[2026-06-16 22:15:03] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:15:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:15:08] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:15:08] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:15:13] INFO: JWT validated successfully for user session
+[2026-06-16 22:15:13] LOG: duration: 12.4ms
+[2026-06-16 22:15:13] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:15:18] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:15:18] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:15:18] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 00:57:49] LOG: statement: UPDATE room_inventory SET status='LOCKED' WHERE room_id=102;
+[2026-06-17 00:57:51] LOG: statement: UPDATE customer_ledger SET balance=0 WHERE customer_id=55;
+[2026-06-17 00:57:55] ERROR: deadlock detected
+[2026-06-17 00:57:57] DETAIL: Process 4102 waits for ShareLock on transaction 881203; blocked by process 4115
+[2026-06-17 00:57:58] LOG: statement: ABORT. Row-level transaction deadlock resolved by dropping process 4102.
+[2026-06-16 22:15:23] INFO: JWT validated successfully for user session
+[2026-06-16 22:15:23] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:28] INFO: JWT validated successfully for user session
+[2026-06-16 22:15:28] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:33] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:15:33] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:38] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:15:38] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:43] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:15:43] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:15:48] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:15:48] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:15:53] INFO: JWT validated successfully for user session
+[2026-06-16 22:15:53] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:15:58] INFO: JWT validated successfully for user session
+[2026-06-16 22:15:58] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:16:03] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:16:03] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:16:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:16:08] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:16:13] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:16:13] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:16:18] INFO: JWT validated successfully for user session
+[2026-06-16 22:16:18] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:23] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:16:23] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:16:28] INFO: JWT validated successfully for user session
+[2026-06-16 22:16:28] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:33] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:16:33] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:38] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:16:38] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:43] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:16:43] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:48] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:16:48] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:16:53] INFO: JWT validated successfully for user session
+[2026-06-16 22:16:53] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:58] INFO: JWT validated successfully for user session
+[2026-06-16 22:16:58] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:17:03] INFO: JWT validated successfully for user session
+[2026-06-16 22:17:03] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:17:08] INFO: JWT validated successfully for user session
+[2026-06-16 22:17:08] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:13] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:17:13] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:18] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:17:18] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:17:23] INFO: JWT validated successfully for user session
+[2026-06-16 22:17:23] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:28] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:17:28] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:17:33] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:17:33] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:38] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:17:38] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:43] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:17:43] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:48] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:17:48] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:17:53] INFO: JWT validated successfully for user session
+[2026-06-16 22:17:53] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:58] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:17:58] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:03] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:18:03] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:18:08] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:13] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:18:13] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:18] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:18:18] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:23] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:18:23] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:28] INFO: JWT validated successfully for user session
+[2026-06-16 22:18:28] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:33] INFO: JWT validated successfully for user session
+[2026-06-16 22:18:33] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:38] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:18:38] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:43] INFO: JWT validated successfully for user session
+[2026-06-16 22:18:43] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:48] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:18:48] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:53] INFO: JWT validated successfully for user session
+[2026-06-16 22:18:53] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:58] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:18:58] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:19:03] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:19:03] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:19:08] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:13] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:19:13] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:18] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:19:18] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:19:23] INFO: JWT validated successfully for user session
+[2026-06-16 22:19:23] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:19:28] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:19:28] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:19:33] INFO: JWT validated successfully for user session
+[2026-06-16 22:19:33] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:38] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:19:38] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:19:43] INFO: JWT validated successfully for user session
+[2026-06-16 22:19:43] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:19:48] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:19:48] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:53] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:19:53] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:58] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:19:58] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:20:03] INFO: JWT validated successfully for user session
+[2026-06-16 22:20:03] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:08] INFO: JWT validated successfully for user session
+[2026-06-16 22:20:08] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:13] INFO: JWT validated successfully for user session
+[2026-06-16 22:20:13] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:20:18] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:20:18] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:20:23] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:20:23] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:28] INFO: JWT validated successfully for user session
+[2026-06-16 22:20:28] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:33] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:20:33] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:20:38] INFO: JWT validated successfully for user session
+[2026-06-16 22:20:38] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:43] INFO: JWT validated successfully for user session
+[2026-06-16 22:20:43] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:20:48] INFO: JWT validated successfully for user session
+[2026-06-16 22:20:48] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:53] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:20:53] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:20:58] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:20:58] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:21:03] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:21:03] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:21:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:21:08] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:21:13] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:21:13] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:21:18] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:21:18] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:21:23] INFO: JWT validated successfully for user session
+[2026-06-16 22:21:23] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:21:28] INFO: JWT validated successfully for user session
+[2026-06-16 22:21:28] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:21:33] INFO: JWT validated successfully for user session
+[2026-06-16 22:21:33] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:14:03] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:03] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:03] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:14:03] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:03] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:03] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:14:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:14:08] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:14:08] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:14:13] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:14:13] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:13] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:14:18] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:18] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:18] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:14:23] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:23] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:23] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:14:28] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:28] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:14:28] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:14:33] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:33] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:33] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:14:38] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:38] LOG: duration: 12.4ms
+[2026-06-16 22:14:38] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:14:43] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:14:43] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:14:48] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:48] LOG: duration: 12.4ms
+[2026-06-16 22:14:48] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:14:53] INFO: JWT validated successfully for user session
+[2026-06-16 22:14:53] LOG: duration: 12.4ms
+[2026-06-16 22:14:53] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:14:58] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:14:58] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:14:58] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:03] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:15:03] LOG: duration: 12.4ms
+[2026-06-16 22:15:03] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:15:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:15:08] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:15:08] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:15:13] INFO: JWT validated successfully for user session
+[2026-06-16 22:15:13] LOG: duration: 12.4ms
+[2026-06-16 22:15:13] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:15:18] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:15:18] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:15:18] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:23] INFO: JWT validated successfully for user session
+[2026-06-16 22:15:23] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:15:23] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:28] INFO: JWT validated successfully for user session
+[2026-06-16 22:15:28] LOG: duration: 12.4ms
+[2026-06-16 22:15:28] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:33] INFO: Incoming request to /api/v1/checkout
+[2026-06-16 22:15:33] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:15:33] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:38] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:15:38] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:15:38] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:15:43] INFO: Redis cache hit for room inventory status
+[2026-06-16 22:15:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:15:43] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 00:57:49] INFO: Attempting to lock room PR-101 for checkout reservation
+[2026-06-17 00:57:51] WARN: Redis transaction contention rate increasing > 40%
+[2026-06-17 00:57:55] ERROR: com.hotel.exception.RedisLockException: Could not acquire distributed lock for Room Type Resource ID: PR-101
+[2026-06-17 00:57:57] ERROR: Inventory sync failed. Stale Redisson distributed locks suspected.
+[2026-06-17 00:57:58] ERROR: Room mapping locked by another transaction. Front-end displaying Unavailable.
+[2026-06-16 22:15:48] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:15:48] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:15:53] LOG: duration: 12.4ms
+[2026-06-16 22:15:53] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:15:58] LOG: duration: 12.4ms
+[2026-06-16 22:15:58] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:16:03] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:16:03] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:16:08] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:16:08] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:16:13] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:16:13] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:16:18] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:16:18] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:23] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:16:23] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:16:28] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:16:28] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:33] LOG: duration: 12.4ms
+[2026-06-16 22:16:33] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:38] LOG: duration: 12.4ms
+[2026-06-16 22:16:38] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:43] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:16:43] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:48] LOG: duration: 12.4ms
+[2026-06-16 22:16:48] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:16:53] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:16:53] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:16:58] LOG: duration: 12.4ms
+[2026-06-16 22:16:58] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:17:03] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:17:03] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:17:08] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:17:08] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:13] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:17:13] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:18] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:17:18] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:17:23] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:17:23] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:28] LOG: duration: 12.4ms
+[2026-06-16 22:17:28] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:17:33] LOG: duration: 12.4ms
+[2026-06-16 22:17:33] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:38] LOG: duration: 12.4ms
+[2026-06-16 22:17:38] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:17:43] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:48] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:17:48] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:17:53] LOG: duration: 12.4ms
+[2026-06-16 22:17:53] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:17:58] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:17:58] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:03] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:18:03] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:08] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:18:08] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:13] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:18:13] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:18] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:18:18] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:23] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:18:23] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:28] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:18:28] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:33] LOG: duration: 12.4ms
+[2026-06-16 22:18:33] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:38] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:18:38] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:18:43] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:48] LOG: duration: 12.4ms
+[2026-06-16 22:18:48] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:18:53] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:18:53] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:18:58] LOG: duration: 12.4ms
+[2026-06-16 22:18:58] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:19:03] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:19:03] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:08] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:19:08] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:13] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:19:13] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:18] LOG: duration: 12.4ms
+[2026-06-16 22:19:18] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:19:23] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:19:23] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:19:28] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:19:28] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:19:33] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:19:33] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:38] LOG: duration: 12.4ms
+[2026-06-16 22:19:38] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:19:43] LOG: duration: 12.4ms
+[2026-06-16 22:19:43] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:19:48] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:19:48] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:53] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:19:53] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-16 22:19:58] LOG: duration: 12.4ms
+[2026-06-16 22:19:58] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:20:03] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:20:03] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:08] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:20:08] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:13] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:20:13] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:20:18] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-16 22:20:18] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:20:23] LOG: duration: 12.4ms
+[2026-06-16 22:20:23] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:28] LOG: duration: 12.4ms
+[2026-06-16 22:20:28] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:33] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:20:33] INFO: S3 document upload successful 200 OK
+[2026-06-16 22:20:38] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-16 22:20:38] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-16 22:20:43] LOG: duration: 12.4ms
+[2026-06-16 22:20:43] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:12:43] INFO: JWT validated successfully for user session
+[2026-06-17 06:12:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:12:43] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:12:45] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:12:45] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:12:45] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:12:47] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:12:47] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:12:47] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:12:49] INFO: JWT validated successfully for user session
+[2026-06-17 06:12:49] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:12:49] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:12:51] INFO: JWT validated successfully for user session
+[2026-06-17 06:12:51] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:12:51] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:12:53] INFO: JWT validated successfully for user session
+[2026-06-17 06:12:53] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:12:53] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:12:55] INFO: JWT validated successfully for user session
+[2026-06-17 06:12:55] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:12:55] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:12:58] INFO: JWT validated successfully for user session
+[2026-06-17 06:12:58] LOG: duration: 12.4ms
+[2026-06-17 06:12:58] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:13:00] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:00] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:13:00] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:13:02] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:02] LOG: duration: 12.4ms
+[2026-06-17 06:13:02] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:13:03] INFO: [metrics-server] scraping node resources for db-cluster
+[2026-06-17 06:13:03] WARN: pg-master.internal.hotelapp.net load average spiked to 45.2
+[2026-06-17 06:13:03] CRITICAL: Database engine host core processor utilization spikes to 100% capacity.
+[2026-06-17 06:13:03] WARN: High CPU utilization pinned by full sequential table scans.
+[2026-06-17 06:13:03] ERROR: DB Node CPU threshold exceeded. Queries backing up in process queue.
+[2026-06-17 06:13:03] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:03] LOG: duration: 12.4ms
+[2026-06-17 06:13:05] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:13:05] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:13:07] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:13:07] LOG: duration: 12.4ms
+[2026-06-17 06:13:09] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:13:09] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:13:12] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:12] LOG: duration: 12.4ms
+[2026-06-17 06:13:14] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:13:14] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:13:16] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:16] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:13:18] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:18] LOG: duration: 12.4ms
+[2026-06-17 06:13:20] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:13:20] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:13:22] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:13:22] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:13:24] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:13:24] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:13:26] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:13:26] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:13:29] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:29] LOG: duration: 12.4ms
+[2026-06-17 06:13:31] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:31] LOG: duration: 12.4ms
+[2026-06-17 06:13:33] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:13:33] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:13:35] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:13:35] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:13:37] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:13:37] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:13:39] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:39] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:13:41] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:13:41] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:13:43] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:13:46] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:13:46] LOG: duration: 12.4ms
+[2026-06-17 06:13:48] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:13:48] LOG: duration: 12.4ms
+[2026-06-17 06:13:50] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:13:50] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:13:52] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:13:52] LOG: duration: 12.4ms
+[2026-06-17 06:13:54] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:54] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:13:56] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:56] LOG: duration: 12.4ms
+[2026-06-17 06:13:58] INFO: JWT validated successfully for user session
+[2026-06-17 06:13:58] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:01] INFO: JWT validated successfully for user session
+[2026-06-17 06:14:01] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:03] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:14:03] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:14:05] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:05] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:14:07] INFO: JWT validated successfully for user session
+[2026-06-17 06:14:07] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:09] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:09] LOG: duration: 12.4ms
+[2026-06-17 06:14:11] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:11] LOG: duration: 12.4ms
+[2026-06-17 06:14:13] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:14:13] LOG: duration: 12.4ms
+[2026-06-17 06:14:15] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:14:15] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:18] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:14:18] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:14:20] INFO: JWT validated successfully for user session
+[2026-06-17 06:14:20] LOG: duration: 12.4ms
+[2026-06-17 06:14:22] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:22] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:24] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:24] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:14:26] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:14:26] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:14:28] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:28] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:30] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:30] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:32] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:32] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:14:35] INFO: JWT validated successfully for user session
+[2026-06-17 06:14:35] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:37] INFO: JWT validated successfully for user session
+[2026-06-17 06:14:37] LOG: duration: 12.4ms
+[2026-06-17 06:14:39] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:39] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:14:41] INFO: JWT validated successfully for user session
+[2026-06-17 06:14:41] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:43] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:43] LOG: duration: 12.4ms
+[2026-06-17 06:14:45] INFO: JWT validated successfully for user session
+[2026-06-17 06:14:45] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:47] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:47] LOG: duration: 12.4ms
+[2026-06-17 06:14:49] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:14:49] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:52] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:14:52] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:54] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:14:54] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:14:56] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:14:56] LOG: duration: 12.4ms
+[2026-06-17 06:14:58] INFO: JWT validated successfully for user session
+[2026-06-17 06:14:58] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:00] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:15:00] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:02] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:02] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:04] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:15:04] LOG: duration: 12.4ms
+[2026-06-17 06:15:06] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:06] LOG: duration: 12.4ms
+[2026-06-17 06:15:09] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:15:09] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:11] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:15:11] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:13] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:15:13] LOG: duration: 12.4ms
+[2026-06-17 06:15:15] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:15] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:15:17] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:17] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:19] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:19] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:15:21] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:15:21] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:23] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:15:23] LOG: duration: 12.4ms
+[2026-06-17 06:15:26] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:26] LOG: duration: 12.4ms
+[2026-06-17 06:15:28] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:15:28] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:15:30] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:30] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:15:32] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:32] LOG: duration: 12.4ms
+[2026-06-17 06:15:34] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:34] LOG: duration: 12.4ms
+[2026-06-17 06:15:36] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:15:36] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:38] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:15:38] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:15:40] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:15:40] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:15:43] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:15:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:15:45] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:15:45] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:47] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:15:47] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:49] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:49] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:15:51] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:51] LOG: duration: 12.4ms
+[2026-06-17 06:15:53] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:53] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:15:55] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:55] LOG: duration: 12.4ms
+[2026-06-17 06:15:57] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:15:57] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:15:59] INFO: JWT validated successfully for user session
+[2026-06-17 06:15:59] LOG: duration: 12.4ms
+[2026-06-17 06:16:01] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:16:01] LOG: duration: 12.4ms
+[2026-06-17 06:16:03] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:16:03] LOG: duration: 12.4ms
+[2026-06-17 06:16:05] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:16:05] LOG: duration: 12.4ms
+[2026-06-17 06:16:07] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:16:07] LOG: duration: 12.4ms
+[2026-06-17 06:16:09] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:16:09] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:12] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:12] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:14] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:14] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:16] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:16:16] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:16:18] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:16:18] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:20] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:20] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:22] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:22] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:24] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:24] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:16:27] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:27] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:29] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:29] LOG: duration: 12.4ms
+[2026-06-17 06:16:31] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:31] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:33] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:33] LOG: duration: 12.4ms
+[2026-06-17 06:16:35] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:35] LOG: duration: 12.4ms
+[2026-06-17 06:16:37] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:16:37] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:16:39] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:16:39] LOG: duration: 12.4ms
+[2026-06-17 06:16:41] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:16:41] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:43] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:43] LOG: duration: 12.4ms
+[2026-06-17 06:16:45] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:16:45] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:16:47] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:47] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:16:49] INFO: JWT validated successfully for user session
+[2026-06-17 06:16:49] LOG: duration: 12.4ms
+[2026-06-17 06:16:51] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:16:51] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:16:53] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:16:53] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:55] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:16:55] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:16:57] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:16:57] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:17:00] INFO: JWT validated successfully for user session
+[2026-06-17 06:17:00] LOG: duration: 12.4ms
+[2026-06-17 06:17:02] INFO: JWT validated successfully for user session
+[2026-06-17 06:17:02] LOG: duration: 12.4ms
+[2026-06-17 06:17:04] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:17:04] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:17:06] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:17:06] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:17:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:17:08] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:17:10] INFO: JWT validated successfully for user session
+[2026-06-17 06:17:10] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:17:12] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:17:12] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:17:14] INFO: JWT validated successfully for user session
+[2026-06-17 06:17:14] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:17:17] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:17:17] LOG: duration: 12.4ms
+[2026-06-17 06:17:19] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:17:19] LOG: duration: 12.4ms
+[2026-06-17 06:17:21] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:17:21] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:17:23] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:17:23] LOG: duration: 12.4ms
+[2026-06-17 06:17:25] INFO: JWT validated successfully for user session
+[2026-06-17 06:17:25] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:17:27] INFO: JWT validated successfully for user session
+[2026-06-17 06:17:27] LOG: duration: 12.4ms
+[2026-06-17 06:17:29] INFO: JWT validated successfully for user session
+[2026-06-17 06:17:29] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:17:31] INFO: JWT validated successfully for user session
+[2026-06-17 06:17:31] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:17:34] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:17:34] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:17:36] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:17:36] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:17:38] INFO: JWT validated successfully for user session
+[2026-06-17 06:17:38] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:17:40] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:17:40] LOG: duration: 12.4ms
+[2026-06-17 06:17:42] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:17:42] LOG: duration: 12.4ms
+[2026-06-17 06:17:44] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:17:44] LOG: duration: 12.4ms
+[2026-06-17 06:17:46] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:17:46] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:17:48] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:17:48] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:17:51] INFO: JWT validated successfully for user session
+[2026-06-17 06:17:51] LOG: duration: 12.4ms
+[2026-06-17 06:17:53] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:17:53] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:17:55] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:17:55] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:17:57] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:17:57] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:17:59] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:17:59] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:18:01] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:18:01] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:18:03] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:18:03] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:18:05] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:05] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:18:07] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:07] LOG: duration: 12.4ms
+[2026-06-17 06:18:09] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:18:09] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:18:12] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:12] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:18:14] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:18:14] LOG: duration: 12.4ms
+[2026-06-17 06:18:16] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:16] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:18:18] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:18:18] LOG: duration: 12.4ms
+[2026-06-17 06:18:20] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:18:20] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:18:22] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:18:22] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:18:24] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:18:24] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:18:26] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:18:26] LOG: duration: 12.4ms
+[2026-06-17 06:18:28] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:28] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:18:30] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:18:30] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:18:32] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:32] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:18:34] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:18:34] LOG: duration: 12.4ms
+[2026-06-17 06:18:37] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:37] LOG: duration: 12.4ms
+[2026-06-17 06:18:39] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:18:39] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:18:41] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:18:41] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:18:43] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:18:43] LOG: duration: 12.4ms
+[2026-06-17 06:18:45] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:45] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:18:47] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:47] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:18:49] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:49] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:18:51] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:18:51] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:18:53] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:18:53] LOG: duration: 12.4ms
+[2026-06-17 06:18:55] INFO: JWT validated successfully for user session
+[2026-06-17 06:18:55] LOG: duration: 12.4ms
+[2026-06-17 06:18:58] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:18:58] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:00] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:00] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:02] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:02] LOG: duration: 12.4ms
+[2026-06-17 06:19:04] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:04] LOG: duration: 12.4ms
+[2026-06-17 06:19:06] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:19:06] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:19:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:19:08] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:10] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:19:10] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:12] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:19:12] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:15] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:19:15] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:19:17] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:19:17] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:19:19] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:19] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:19:21] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:21] LOG: duration: 12.4ms
+[2026-06-17 06:19:23] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:23] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:25] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:25] LOG: duration: 12.4ms
+[2026-06-17 06:19:27] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:19:27] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:29] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:29] LOG: duration: 12.4ms
+[2026-06-17 06:19:31] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:19:31] LOG: duration: 12.4ms
+[2026-06-17 06:19:33] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:19:33] LOG: duration: 12.4ms
+[2026-06-17 06:19:35] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:19:35] LOG: duration: 12.4ms
+[2026-06-17 06:19:38] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:19:38] LOG: duration: 12.4ms
+[2026-06-17 06:19:40] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:19:40] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:42] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:42] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:44] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:44] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:46] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:19:46] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:19:48] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:19:48] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:50] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:50] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:52] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:52] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:54] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:54] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:19:56] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:56] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:19:58] INFO: JWT validated successfully for user session
+[2026-06-17 06:19:58] LOG: duration: 12.4ms
+[2026-06-17 06:20:00] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:00] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:20:02] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:02] LOG: duration: 12.4ms
+[2026-06-17 06:20:04] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:04] LOG: duration: 12.4ms
+[2026-06-17 06:20:06] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:20:06] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:20:08] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:20:08] LOG: duration: 12.4ms
+[2026-06-17 06:20:10] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:20:10] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:20:12] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:12] LOG: duration: 12.4ms
+[2026-06-17 06:20:14] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:20:14] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:20:16] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:16] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:20:18] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:18] LOG: duration: 12.4ms
+[2026-06-17 06:20:20] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:20:20] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:20:22] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:20:22] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:20:24] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:20:24] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:20:26] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:20:26] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:20:28] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:28] LOG: duration: 12.4ms
+[2026-06-17 06:20:31] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:31] LOG: duration: 12.4ms
+[2026-06-17 06:20:33] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:20:33] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:20:35] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:20:35] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:20:37] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:20:37] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:20:39] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:39] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:20:41] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:20:41] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:20:43] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:20:45] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:20:45] LOG: duration: 12.4ms
+[2026-06-17 06:20:47] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:20:47] LOG: duration: 12.4ms
+[2026-06-17 06:20:49] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:20:49] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:20:51] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:20:51] LOG: duration: 12.4ms
+[2026-06-17 06:20:53] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:53] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:20:55] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:55] LOG: duration: 12.4ms
+[2026-06-17 06:20:57] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:57] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:20:59] INFO: JWT validated successfully for user session
+[2026-06-17 06:20:59] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:21:01] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:21:01] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:21:03] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:21:03] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:21:05] INFO: JWT validated successfully for user session
+[2026-06-17 06:21:05] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:21:07] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:21:07] LOG: duration: 12.4ms
+[2026-06-17 06:21:09] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:21:09] LOG: duration: 12.4ms
+[2026-06-17 06:27:02] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:02] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:27:02] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:27:04] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:27:04] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:27:04] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:27:07] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:27:07] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:27:07] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:27:10] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:10] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:27:10] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:27:13] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:13] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:27:13] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:27:15] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:15] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:27:15] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:27:18] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:18] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:27:18] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:27:21] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:21] LOG: duration: 12.4ms
+[2026-06-17 06:27:21] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:27:24] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:24] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:27:24] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:27:27] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:27] LOG: duration: 12.4ms
+[2026-06-17 06:27:27] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:27:30] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:30] LOG: duration: 12.4ms
+[2026-06-17 06:27:30] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:27:33] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:27:33] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:27:33] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:27:35] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:27:35] LOG: duration: 12.4ms
+[2026-06-17 06:27:35] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:27:38] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:27:38] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:27:38] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:27:41] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:41] LOG: duration: 12.4ms
+[2026-06-17 06:27:41] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:27:44] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:27:44] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:27:44] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:27:47] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:47] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:27:47] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:27:49] INFO: JWT validated successfully for user session
+[2026-06-17 06:27:49] LOG: duration: 12.4ms
+[2026-06-17 06:27:49] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:27:50] INFO: Validating user token payload for session
+[2026-06-17 06:27:50] INFO: Fetching JWKS public key from cache
+[2026-06-17 06:27:50] ERROR: io.jsonwebtoken.SignatureException: The Token Signature is invalid
+[2026-06-17 06:27:50] WARN: JWT signature does not match locally cached credentials from auth-service
+[2026-06-17 06:27:50] ERROR: Security context rejected. HTTP 401 Unauthorized returned to client.
+[2026-06-17 06:30:22] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:30:22] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:30:24] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:30:24] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:30:27] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:30:27] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:30:29] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:30:29] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:30:31] LOG: duration: 12.4ms
+[2026-06-17 06:30:31] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:30:34] LOG: duration: 12.4ms
+[2026-06-17 06:30:34] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:30:36] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:30:36] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:30:39] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:30:39] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:30:42] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:30:42] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:30:44] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:30:44] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:30:47] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:30:47] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:30:49] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:30:49] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:30:51] LOG: duration: 12.4ms
+[2026-06-17 06:30:51] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:30:54] LOG: duration: 12.4ms
+[2026-06-17 06:30:54] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:30:56] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:30:56] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:30:59] LOG: duration: 12.4ms
+[2026-06-17 06:30:59] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:31:01] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:31:01] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:31:03] LOG: duration: 12.4ms
+[2026-06-17 06:31:03] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:31:06] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:31:06] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:31:08] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:31:08] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:31:11] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:31:11] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:31:13] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:31:13] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:31:15] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:41:23] INFO: JWT validated successfully for user session
+[2026-06-17 06:41:23] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:41:23] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:41:26] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:41:26] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:41:26] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:41:29] INFO: Redis cache hit for room inventory status
+[2026-06-17 06:41:29] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:41:29] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:41:31] INFO: JWT validated successfully for user session
+[2026-06-17 06:41:31] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:41:31] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:41:34] INFO: JWT validated successfully for user session
+[2026-06-17 06:41:34] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:41:34] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:41:37] INFO: JWT validated successfully for user session
+[2026-06-17 06:41:37] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:41:37] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:41:39] INFO: JWT validated successfully for user session
+[2026-06-17 06:41:39] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:41:39] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:41:42] INFO: JWT validated successfully for user session
+[2026-06-17 06:41:42] LOG: duration: 12.4ms
+[2026-06-17 06:41:42] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:41:45] INFO: JWT validated successfully for user session
+[2026-06-17 06:41:45] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:41:45] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:41:47] INFO: JWT validated successfully for user session
+[2026-06-17 06:41:47] LOG: duration: 12.4ms
+[2026-06-17 06:41:47] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:41:50] INFO: JWT validated successfully for user session
+[2026-06-17 06:41:50] LOG: duration: 12.4ms
+[2026-06-17 06:41:50] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:41:53] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:41:53] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:41:53] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:41:56] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:41:56] LOG: duration: 12.4ms
+[2026-06-17 06:41:56] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:41:58] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:41:58] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:41:58] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:42:01] INFO: JWT validated successfully for user session
+[2026-06-17 06:42:01] LOG: duration: 12.4ms
+[2026-06-17 06:42:01] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:42:04] INFO: Incoming request to /api/v1/checkout
+[2026-06-17 06:42:04] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:42:04] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:42:07] INFO: JWT validated successfully for user session
+[2026-06-17 06:42:07] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:42:07] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:42:10] INFO: Validating user token payload for session
+[2026-06-17 06:42:10] INFO: Fetching JWKS public key from cache
+[2026-06-17 06:42:10] ERROR: io.jsonwebtoken.SignatureException: The Token Signature is invalid
+[2026-06-17 06:42:10] WARN: JWT signature does not match locally cached credentials from auth-service
+[2026-06-17 06:42:10] ERROR: Security context rejected. HTTP 401 Unauthorized returned to client.
+[2026-06-17 06:44:29] LOG: duration: 12.4ms
+[2026-06-17 06:44:29] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:44:32] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:44:32] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:44:34] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:44:34] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:44:36] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:44:36] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:44:39] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:44:39] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:44:42] LOG: duration: 12.4ms
+[2026-06-17 06:44:42] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:44:44] LOG: duration: 12.4ms
+[2026-06-17 06:44:44] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:44:47] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:44:47] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:44:50] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:44:50] INFO: Pod reservation-service-worker memory active: 400Mi
+[2026-06-17 06:44:52] LOG: checkpoint complete: wrote 42 buffers
+[2026-06-17 06:44:52] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:44:54] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:44:54] INFO: S3 document upload successful 200 OK
+[2026-06-17 06:44:57] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+[2026-06-17 06:44:57] INFO: Node-04 CPU utilization steady at 45%
+[2026-06-17 06:44:59] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'

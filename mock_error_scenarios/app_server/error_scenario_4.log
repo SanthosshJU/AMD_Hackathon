@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] INFO: Executing promo_booking workflow for 50 concurrent users
+[2026-06-17 00:57:51] INFO: Updating customer_ledger table followed by room_inventory table
+[2026-06-17 00:57:55] ERROR: org.springframework.dao.DeadlockLoserDataAccessException: PreparedStatementCallback; SQL statement []; Deadlock detected
+[2026-06-17 00:57:57] ERROR: nested exception is org.postgresql.util.PSQLException: ERROR: deadlock detected
+[2026-06-17 00:57:58] ERROR: Transaction aborted to resolve deadlock. Checkout failed.

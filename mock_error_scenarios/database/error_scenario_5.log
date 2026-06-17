@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] LOG: statement: SELECT * FROM pg_stat_activity WHERE state = 'idle in transaction';
+[2026-06-17 00:57:51] WARN: 95 active connections stuck in 'idle in transaction' state for over 3 minutes.
+[2026-06-17 00:57:55] WARN: Unclosed connection objects detected originating from 'billing-orchestrator'
+[2026-06-17 00:57:57] FATAL: Transaction pool starved. No available slots.
+[2026-06-17 00:57:58] LOG: executing pg_terminate_backend() to drop rogue PIDs.

@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] LOG: connection authorized: user=booking_app database=hotel_reservations
+[2026-06-17 00:57:51] LOG: statement: BEGIN TRANSACTION ISOLATION LEVEL READ COMMITTED
+[2026-06-17 00:57:55] FATAL: remaining connection slots are reserved for non-replication superuser connections
+[2026-06-17 00:57:57] ERROR: HikariCP booking-service-pool - Connection is not available, request timed out after 30000ms
+[2026-06-17 00:57:58] WARN: Connection Count Exceeded 95% of max_connections limit.

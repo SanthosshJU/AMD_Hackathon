@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] INFO: [aws-ec2] checking node health for es-data-03
+[2026-06-17 00:57:51] CRITICAL: kernel panic - not syncing: Fatal exception in interrupt
+[2026-06-17 00:57:55] WARN: Kubernetes node es-data-03 transitioned to NotReady
+[2026-06-17 00:57:57] INFO: Evicting pods from node es-data-03 due to hardware failure
+[2026-06-17 00:57:58] ERROR: Node reboot sequence stalled. Max_retries limit hit.

@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] INFO: [kubelet] node-02 memory usage 95%
+[2026-06-17 00:57:51] WARN: Memory cgroup out of memory: Killed process 8812 (java) total-vm:4092100kB, anon-rss:1048576kB
+[2026-06-17 00:57:55] CRITICAL: Container reservation-service OOMKilled Detected (Exit Code 137)
+[2026-06-17 00:57:57] ERROR: java.lang.OutOfMemoryError: Java heap space limits reached.
+[2026-06-17 00:57:58] WARN: Kubernetes Pod reservation-service transitioned to CrashLoopBackOff state.

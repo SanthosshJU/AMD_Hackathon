@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] LOG: statement: UPDATE room_inventory SET status='LOCKED' WHERE room_id=102;
+[2026-06-17 00:57:51] LOG: statement: UPDATE customer_ledger SET balance=0 WHERE customer_id=55;
+[2026-06-17 00:57:55] ERROR: deadlock detected
+[2026-06-17 00:57:57] DETAIL: Process 4102 waits for ShareLock on transaction 881203; blocked by process 4115
+[2026-06-17 00:57:58] LOG: statement: ABORT. Row-level transaction deadlock resolved by dropping process 4102.

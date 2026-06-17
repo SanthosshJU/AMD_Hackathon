@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] INFO: Night audit trigger: Generating PDF invoice for customer 8821
+[2026-06-17 00:57:51] INFO: Uploading to S3 bucket path: s3://hotel-invoices-prod/2026-06-16/
+[2026-06-17 00:57:55] ERROR: com.amazonaws.services.s3.model.AmazonS3Exception: Status Code: 503, Error Code: SlowDown, Please reduce your request rate.
+[2026-06-17 00:57:57] WARN: Invoice Storage Dispatch Drop Rate > 25%
+[2026-06-17 00:57:58] ERROR: Background worker queue full. PDF generation task dropped.

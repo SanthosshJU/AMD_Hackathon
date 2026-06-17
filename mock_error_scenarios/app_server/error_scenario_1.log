@@ -1,0 +1,5 @@
+[2026-06-17 00:57:49] INFO: Outbound request to Stripe API initiated
+[2026-06-17 00:57:51] WARN: External API latency exceeding 4000ms threshold
+[2026-06-17 00:57:55] ERROR: java.net.SocketTimeoutException: Read timed out to api.stripe.com
+[2026-06-17 00:57:57] ERROR: Resilience4j CircuitBreaker payment-gateway-cb CHANGED_STATE FROM CLOSED TO OPEN
+[2026-06-17 00:57:58] ERROR: Payment conversion failed for transaction tx-9921. HTTP 500 returned to client.
