@@ -55,11 +55,11 @@ def convert_to_ist(log_line: str) -> str:
     # Matches common timestamp formats (e.g., 2023-10-12 12:00:00 or ISO8601 with/without brackets)
     pattern = r"\[?\d{4}-\d{2}-\d{2}[T ]\d{2}:\d{2}:\d{2}(?:\.\d+)?Z?\]?\s*"
     clean_line = re.sub(pattern, "", log_line).strip()
-    
+
     # Strip lingering hyphens or colons left over from formatting
     if clean_line.startswith("- "):
         clean_line = clean_line[2:]
-        
+
     return f"[{get_current_ist_str()}] {clean_line}"
 
 def read_next_lines(server_id: str, num_lines: int = 1) -> list:
@@ -67,14 +67,14 @@ def read_next_lines(server_id: str, num_lines: int = 1) -> list:
     filepath = os.path.join("mock_logs", f"{server_id}.log")
     if not os.path.exists(filepath):
         return [f"[WARNING] {filepath} not found."]
-    
+
     lines_read = []
     try:
         with open(filepath, "r") as f:
             # Fast-forward to current pointer
             for _ in range(st.session_state.pointers[server_id]):
                 f.readline()
-                
+
             for _ in range(num_lines):
                 line = f.readline()
                 if not line:
@@ -83,7 +83,7 @@ def read_next_lines(server_id: str, num_lines: int = 1) -> list:
                 st.session_state.pointers[server_id] += 1
     except Exception as e:
         lines_read.append(f"[ERROR] Failed to read {filepath}: {str(e)}")
-        
+
     return lines_read
 
 def load_incidents() -> list:
@@ -108,7 +108,7 @@ def update_incident_status(incident_id: str, new_status: str):
 def trigger_error_simulation(server_id: str):
     """Phase 1: Appends logs and updates statuses, then triggers UI rerun before analysis."""
     error_dir = os.path.join("mock_error_scenarios", server_id)
-    
+
     err_lines = []
     if os.path.exists(error_dir):
         files = [f for f in os.listdir(error_dir) if f.endswith(".log")]
@@ -126,7 +126,7 @@ def trigger_error_simulation(server_id: str):
     formatted_errs = [f"!!ERROR!!{convert_to_ist(line.strip())}" for line in err_lines]
     st.session_state.buffers[server_id].extend(formatted_errs)
     st.session_state.statuses[server_id] = "HALTED"
-    
+
     # Flag analysis to occur AFTER the UI has drawn the new logs
     st.session_state.pending_analysis = server_id
 
@@ -163,7 +163,7 @@ with tab1:
     st.subheader("Current Node Statuses")
     c1, c2, c3 = st.columns(3)
     metrics = [c1, c2, c3]
-    
+
     for idx, (name, s_id) in enumerate(SERVERS.items()):
         status = st.session_state.statuses[s_id]
         color = "green" if status == "RUNNING" else "red" if status == "HALTED" else "orange"
@@ -181,12 +181,12 @@ with tab1:
 with tab2:
     lc1, lc2, lc3 = st.columns(3)
     log_cols = [lc1, lc2, lc3]
-    
+
     for idx, (name, s_id) in enumerate(SERVERS.items()):
         with log_cols[idx]:
             st.markdown(f"**{name} Logs**")
             display_lines = st.session_state.buffers[s_id][-100:]
-            
+
             # Format and inject RED span for lines marked as error
             safe_lines = []
             for line in display_lines:
@@ -195,9 +195,9 @@ with tab2:
                     safe_lines.append(f'<span style="color: #ff4b4b;">{clean_line}</span>')
                 else:
                     safe_lines.append(html.escape(line))
-                    
+
             log_text = "<br>".join(safe_lines) if safe_lines else "<i>Awaiting stream...</i>"
-            
+
             st.markdown(f"""
             <div style="height: 450px; overflow-y: auto; background-color: #0d1117; color: #00ff00; 
                         padding: 12px; font-family: 'Courier New', monospace; font-size: 13px; 
@@ -210,7 +210,7 @@ with tab2:
 with tab3:
     st.subheader("Identified Incidents & Remediation Tracking")
     db_data = load_incidents()
-    
+
     if not db_data:
         st.write("No incidents recorded yet.")
     else:
@@ -221,13 +221,13 @@ with tab3:
         hc4.markdown("**Remediation Steps**")
         hc5.markdown("**Actions**")
         st.markdown("---")
-        
+
         for row in reversed(db_data): 
             rc1, rc2, rc3, rc4, rc5 = st.columns([1.5, 2.5, 2.5, 3.5, 1.5])
             rc1.write(row.get("timestamp", "N/A"))
             rc2.write(row.get("summary", "N/A"))
             rc3.write(row.get("root_cause", "N/A"))
-            
+
             # Format list of dictionaries safely
             raw_steps = row.get("remediation_steps", [])
             if isinstance(raw_steps, list):
@@ -236,7 +236,7 @@ with tab3:
                 rc4.markdown(formatted_steps)
             else:
                 rc4.write(str(raw_steps))
-            
+
             with rc5:
                 if row.get("status") == "Pending":
                     if st.button("Mark as Complete", key=f"mark_{row['id']}"):
@@ -251,26 +251,26 @@ with tab3:
 # --- Phase 2: Pending Analysis Engine ---
 if st.session_state.pending_analysis:
     server_id = st.session_state.pending_analysis
-    
+
     # Pre-emptively tick logs for running servers so they don't freeze during the spinner wait
     for s_id, s_status in st.session_state.statuses.items():
         if s_status == "RUNNING":
             new_lines = read_next_lines(s_id, num_lines=1)
             if new_lines:
                 st.session_state.buffers[s_id].extend(new_lines)
-    
+
     with analysis_status_container.status("🚨 **Incident Detected! Processing Workflow...**", expanded=True) as status:
         st.write("🔍 Analyzing the logs...")
         time.sleep(1.5)
         st.write("📄 Extracting source documents...")
         time.sleep(1.5)
         st.write("💡 Formulating solution...")
-        
+
         # Remove the internal !!ERROR!! tag so the backend gets clean text
         app_logs = [l.replace("!!ERROR!!", "") for l in st.session_state.buffers["app_server"][-10:]]
         db_logs = [l.replace("!!ERROR!!", "") for l in st.session_state.buffers["database"][-10:]]
         infra_logs = [l.replace("!!ERROR!!", "") for l in st.session_state.buffers["infrastructure"][-10:]]
-        
+
         try:
             response = backend_app.process_incident(app_logs, db_logs, infra_logs)
         except Exception as e:
@@ -279,9 +279,9 @@ if st.session_state.pending_analysis:
                 "root_cause": "Unknown due to processing failure",
                 "remediation_steps": [{"step": "Check backend configuration"}, {"step": "Re-evaluate logs"}]
             }
-            
+
         status.update(label="✅ Analysis Complete!", state="complete", expanded=False)
-        
+
     if hasattr(response, "model_dump"):
         incident_record = response.model_dump()
     elif hasattr(response, "dict"):
@@ -298,7 +298,7 @@ if st.session_state.pending_analysis:
     db_data.append(incident_record)
     with open(ST_DB_FILE, "w") as f:
         json.dump(db_data, f, indent=4)
-        
+
     st.session_state.pending_analysis = None
     time.sleep(1) 
     st.rerun()

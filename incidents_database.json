@@ -226,5 +226,21 @@
         "id": "66414d4c",
         "status": "Completed",
         "target_server": "database"
+    },
+    {
+        "summary": "Backend evaluation failed: 'charmap' codec can't encode character '\\U0001f6a8' in position 0: character maps to <undefined>",
+        "root_cause": "Unknown due to processing failure",
+        "remediation_steps": [
+            {
+                "step": "Check backend configuration"
+            },
+            {
+                "step": "Re-evaluate logs"
+            }
+        ],
+        "timestamp": "2026-06-17 14:23:17 IST",
+        "id": "25006f16",
+        "status": "Pending",
+        "target_server": "app_server"
     }
 ]

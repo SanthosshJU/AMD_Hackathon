@@ -1,3 +1,4 @@
+
 import json
 import numpy as np
 import chromadb
@@ -28,21 +29,21 @@ collection = chroma_client.get_or_create_collection(name="incident_runbook_kb")
 def load_and_prepare_data(filepath, doc_type):
     with open(filepath, 'r') as f:
         data = json.load(f)
-    
+
     documents = []
     metadata = []
     ids = []
-    
+
     for i, item in enumerate(data):
         # Convert the JSON item into a single searchable text chunk
         # This joins all key-value pairs into a readable string
         text_chunk = "\n".join([f"{k.replace('_', ' ').title()}: {v}" for k, v in item.items()])
-        
+
         doc_id = f"{doc_type}_{i}"
         documents.append(text_chunk)
         metadata.append({"source": doc_type, "original_json": json.dumps(item)})
         ids.append(doc_id)
-        
+
     return documents, metadata, ids
 
 
@@ -81,7 +82,7 @@ def retrieve_top_5(query_summary, k_initial=10, rrf_k=60):
     Executes BM25 + Vector Search -> RRF -> Cross-Encoder Re-ranking
     """
     print(f"\n--- Searching for: '{query_summary}' ---")
-    
+
     # --- Step A: Dense Retrieval (ChromaDB) ---
     query_embedding = embedder.encode([query_summary]).tolist()
     dense_results = collection.query(
@@ -89,27 +90,27 @@ def retrieve_top_5(query_summary, k_initial=10, rrf_k=60):
         n_results=k_initial
     )
     dense_ids = dense_results['ids'][0]
-    
+
     # --- Step B: Sparse Retrieval (BM25s) ---
     query_tokens = bm25s.tokenize([query_summary])
     bm25_docs, bm25_scores = bm25_retriever.retrieve(query_tokens, corpus=all_ids, k=k_initial)
     sparse_ids = bm25_docs[0].tolist() # Extract IDs from results
-    
+
     # --- Step C: Reciprocal Rank Fusion (RRF) ---
     rrf_scores = {}
-    
+
     # Calculate RRF for Dense
     for rank, doc_id in enumerate(dense_ids):
         rrf_scores[doc_id] = rrf_scores.get(doc_id, 0.0) + (1.0 / (rrf_k + rank + 1))
-        
+
     # Calculate RRF for Sparse
     for rank, doc_id in enumerate(sparse_ids):
         rrf_scores[doc_id] = rrf_scores.get(doc_id, 0.0) + (1.0 / (rrf_k + rank + 1))
-        
+
     # Sort by RRF score and get the top candidates to re-rank
     sorted_rrf = sorted(rrf_scores.items(), key=lambda x: x[1], reverse=True)
     top_candidates_ids = [doc_id for doc_id, score in sorted_rrf[:k_initial]]
-    
+
     # --- Step D: Cross-Encoder Re-ranking ---
     # Fetch the actual text for the candidates to pass to the cross-encoder
     candidate_texts = []
@@ -117,18 +118,18 @@ def retrieve_top_5(query_summary, k_initial=10, rrf_k=60):
         # Quick lookup of the document text using the index
         idx = all_ids.index(doc_id)
         candidate_texts.append(all_docs[idx])
-        
+
     # Create pairs of (Query, Candidate_Document) for the Cross-Encoder
     cross_inp = [[query_summary, text] for text in candidate_texts]
     cross_scores = reranker.predict(cross_inp)
-    
+
     # Zip IDs, Scores, and Texts, then sort by Cross-Encoder score
     reranked_results = list(zip(top_candidates_ids, cross_scores, candidate_texts))
     reranked_results.sort(key=lambda x: x[1], reverse=True)
-    
+
     # Extract the Final Top 5
     final_top_5 = reranked_results[:5]
-    
+
     # Format the output gracefully
     results_output = []
     for rank, (doc_id, score, text) in enumerate(final_top_5):
@@ -141,20 +142,20 @@ def retrieve_top_5(query_summary, k_initial=10, rrf_k=60):
             "reranker_score": float(score),
             "data": original_json
         })
-    
+
     for res in results_output:
         print(f"Rank {res['rank']} | ID: {res['id']} | Score: {res['reranker_score']:.4f}")
         print(f"Preview: {str(res['data'])[:100]}...\n")
 
     return results_output
 
-if __name__ == "__main__":
-    # ---------------------------------------------------------
-    # 4. Test Execution
-    # ---------------------------------------------------------
-    test_query = "Users are getting 502 Bad Gateway and the database is showing pool exhaustion."
-    top_5_results = retrieve_top_5(test_query)
+# if __name__ == "__main__":
+#     # ---------------------------------------------------------
+#     # 4. Test Execution
+#     # ---------------------------------------------------------
+#     test_query = "Users are getting 502 Bad Gateway and the database is showing pool exhaustion."
+#     top_5_results = retrieve_top_5(test_query)
 
-    for res in top_5_results:
-        print(f"Rank {res['rank']} | ID: {res['id']} | Score: {res['reranker_score']:.4f}")
-        print(f"Preview: {str(res['data'])[:100]}...\n")
+#     for res in top_5_results:
+#         print(f"Rank {res['rank']} | ID: {res['id']} | Score: {res['reranker_score']:.4f}")
+#         print(f"Preview: {str(res['data'])[:100]}...\n")

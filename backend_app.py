@@ -60,10 +60,10 @@ resolution_prompt = ChatPromptTemplate.from_messages([
     ("user", """
     ### Raw Server Logs ###
     {raw_logs}
-    
+
     ### Identified Summary ###
     {summary}
-    
+
     ### Retrieved Knowledge Base (Runbooks & Past Incidents) ###
     {context}
     """)
@@ -74,27 +74,27 @@ resolution_prompt = ChatPromptTemplate.from_messages([
 # ---------------------------------------------------------
 def process_incident(app_logs, db_logs, infra_logs):
     print("🚨 Triggering Autonomous Diagnosis Pipeline (Local Model)...")
-    
+
     # Combine logs into a single readable block
     raw_logs = f"APP LOGS:\n{app_logs}\n\nDB LOGS:\n{db_logs}\n\nINFRA LOGS:\n{infra_logs}"
-    
+
     # Step 1: Generate Summary for Search
     print("-> Summarizing logs for semantic search...")
     summary_chain = summary_prompt | llm_fast
     summary_result = summary_chain.invoke({"raw_logs": raw_logs})
     incident_summary = summary_result.content
-    
+
     # Step 2: Hybrid Retrieval 
     print(f"-> Searching Vector DB for: '{incident_summary}'")
     # Utilizing the hybrid search script provided
     retrieved_docs = retrieve_top_5(incident_summary) 
-    
+
     # Format the retrieved documents into a clean string context
     formatted_context = ""
     for doc in retrieved_docs:
         # Extracting the original JSON metadata for context
         formatted_context += f"- {json.dumps(doc['data'])}\n" 
-        
+
     # Step 3: Generate Structured Resolution
     print("-> Generating structured resolution and remediation plan...")
     resolution_chain = resolution_prompt | llm_smart
@@ -103,43 +103,43 @@ def process_incident(app_logs, db_logs, infra_logs):
         "summary": incident_summary,
         "context": formatted_context
     })
-    
+
     print("✅ Pipeline Complete.")
     return final_resolution
 
-if __name__ == "__main__":
-    app_logs = """[2026-06-16 22:21:38] INFO: JWT validated successfully for user session
-                    [2026-06-16 22:21:43] INFO: Redis cache hit for room inventory status
-                    [2026-06-16 22:21:48] INFO: JWT validated successfully for user session
-                    [2026-06-16 22:21:53] INFO: Incoming request to /api/v1/checkout
-                    [2026-06-16 22:21:58] INFO: Incoming request to /api/v1/checkout
-                    [2026-06-16 22:22:03] INFO: Redis cache hit for room inventory status
-                    [2026-06-16 22:22:08] INFO: Incoming request to /api/v1/checkout
-                    [2026-06-16 22:22:13] INFO: Redis cache hit for room inventory status
-                    [2026-06-16 22:22:18] INFO: JWT validated successfully for user session
-                    [2026-06-16 22:24:18] ERROR: java.net.SocketTimeoutException: Read timed out to api.stripe.com
-                    """
-    
-    db_logs = """[2026-06-16 22:21:33] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
-                [2026-06-16 22:21:38] LOG: duration: 12.4ms
-                [2026-06-16 22:21:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
-                [2026-06-16 22:21:48] LOG: duration: 12.4ms
-                [2026-06-16 22:21:53] LOG: duration: 12.4ms
-                [2026-06-16 22:21:58] LOG: duration: 12.4ms
-                [2026-06-16 22:22:03] LOG: duration: 12.4ms
-                [2026-06-16 22:22:08] LOG: duration: 12.4ms
-                [2026-06-16 22:22:13] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
-                [2026-06-16 22:22:18] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'"""
-    
-    infra_logs = """[2026-06-16 22:21:33] INFO: Pod reservation-service-worker memory active: 400Mi
-                    [2026-06-16 22:21:38] INFO: Pod reservation-service-worker memory active: 400Mi
-                    [2026-06-16 22:21:43] INFO: Pod reservation-service-worker memory active: 400Mi
-                    [2026-06-16 22:21:48] INFO: Node-04 CPU utilization steady at 45%
-                    [2026-06-16 22:21:53] INFO: S3 document upload successful 200 OK
-                    [2026-06-17 00:57:49] INFO: [kubelet] node-02 memory usage 95%
-                    [2026-06-17 00:57:51] WARN: Memory cgroup out of memory: Killed process 8812 (java) total-vm:4092100kB, anon-rss:1048576kB
-                    [2026-06-17 00:57:55] CRITICAL: Container reservation-service OOMKilled Detected (Exit Code 137)
-                    [2026-06-17 00:57:57] ERROR: java.lang.OutOfMemoryError: Java heap space limits reached.
-                    [2026-06-17 00:57:58] WARN: Kubernetes Pod reservation-service transitioned to CrashLoopBackOff state."""
-    
-    print(process_incident(app_logs,db_logs,infra_logs))
+# if __name__ == "__main__":
+#     app_logs = """[2026-06-16 22:21:38] INFO: JWT validated successfully for user session
+#                     [2026-06-16 22:21:43] INFO: Redis cache hit for room inventory status
+#                     [2026-06-16 22:21:48] INFO: JWT validated successfully for user session
+#                     [2026-06-16 22:21:53] INFO: Incoming request to /api/v1/checkout
+#                     [2026-06-16 22:21:58] INFO: Incoming request to /api/v1/checkout
+#                     [2026-06-16 22:22:03] INFO: Redis cache hit for room inventory status
+#                     [2026-06-16 22:22:08] INFO: Incoming request to /api/v1/checkout
+#                     [2026-06-16 22:22:13] INFO: Redis cache hit for room inventory status
+#                     [2026-06-16 22:22:18] INFO: JWT validated successfully for user session
+#                     [2026-06-16 22:24:18] ERROR: java.net.SocketTimeoutException: Read timed out to api.stripe.com
+#                     """
+
+#     db_logs = """[2026-06-16 22:21:33] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+#                 [2026-06-16 22:21:38] LOG: duration: 12.4ms
+#                 [2026-06-16 22:21:43] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+#                 [2026-06-16 22:21:48] LOG: duration: 12.4ms
+#                 [2026-06-16 22:21:53] LOG: duration: 12.4ms
+#                 [2026-06-16 22:21:58] LOG: duration: 12.4ms
+#                 [2026-06-16 22:22:03] LOG: duration: 12.4ms
+#                 [2026-06-16 22:22:08] LOG: duration: 12.4ms
+#                 [2026-06-16 22:22:13] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'
+#                 [2026-06-16 22:22:18] LOG: statement: SELECT * FROM rooms WHERE status='AVAILABLE'"""
+
+#     infra_logs = """[2026-06-16 22:21:33] INFO: Pod reservation-service-worker memory active: 400Mi
+#                     [2026-06-16 22:21:38] INFO: Pod reservation-service-worker memory active: 400Mi
+#                     [2026-06-16 22:21:43] INFO: Pod reservation-service-worker memory active: 400Mi
+#                     [2026-06-16 22:21:48] INFO: Node-04 CPU utilization steady at 45%
+#                     [2026-06-16 22:21:53] INFO: S3 document upload successful 200 OK
+#                     [2026-06-17 00:57:49] INFO: [kubelet] node-02 memory usage 95%
+#                     [2026-06-17 00:57:51] WARN: Memory cgroup out of memory: Killed process 8812 (java) total-vm:4092100kB, anon-rss:1048576kB
+#                     [2026-06-17 00:57:55] CRITICAL: Container reservation-service OOMKilled Detected (Exit Code 137)
+#                     [2026-06-17 00:57:57] ERROR: java.lang.OutOfMemoryError: Java heap space limits reached.
+#                     [2026-06-17 00:57:58] WARN: Kubernetes Pod reservation-service transitioned to CrashLoopBackOff state."""
+
+#     print(process_incident(app_logs,db_logs,infra_logs))
